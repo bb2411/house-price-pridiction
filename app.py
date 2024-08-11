@@ -53,5 +53,7 @@ def main():
             st.success(f"The predicted price of the house is ${price:,.2f}")
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
+    st.markdown("---")
+    st.markdown("**Author:** Bhargav Bhatt")
 if __name__ == "__main__":
     main()

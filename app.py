@@ -54,6 +54,6 @@ def main():
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
     st.markdown("---")
-    st.markdown("**Author:** Bhargav Bhatt")
+    st.markdown("**Author:** Darshan Jadav & Bhargav Bhatt")
 if __name__ == "__main__":
     main()
